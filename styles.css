@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.appointment-card {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+}
+
+.header {
+    color: #43c261;
+    font-size: 5px;
+    margin-bottom: 8px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    font-size: 8px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 3px;
+    font-size: 6px;
+    color: rgb(199, 211, 224);
+}
+
+.profile img {
+    border-radius: 55%;
+    width: 10px; 
+    height: 10px;
+    margin-right: 3px
+}
+
+.details {
+    font-size: 7px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.location {
+    color: #007bff;
+    text-decoration: none;
+    font-size:5px;
+    font-weight: normal;
+}
+
+.date-time {
+    background-color: #f7f4f4;
+    padding: 5px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center; 
+    font-size: 5px;
+    margin-bottom: 10px;
+}
+
+.calendar-icon {
+    color: #1cc9c9; 
+    background-color: #e9edee;
+    border-radius: 50%;
+    width: 18px; 
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 8px; 
+}
+
+.date-label {
+    color: #bbb2b2;
+    margin-bottom: 3px;
+}
+
+.reschedule-btn {
+    display: block;
+    padding: 5px 5px;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 1px;
+    font-weight: bold;
+    font-size: 5px;
+    border: .5px solid #007bff;
+    width: 60px;
+}
